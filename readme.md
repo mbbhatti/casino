@@ -12,10 +12,3 @@ Composer used to manage application dependencies. So, before using this applicat
 ## Run
 Use following command to run this project on [http://127.0.0.1:8000](http://127.0.0.1:8000)
 - php artisan serve
-
-## Setup (optional)
-You need to create a .env file from .env.example if it is not exists through this command.
--  cp .env.example .env
-
-Then, run this command to create key in .env file if not exists.
-- php artisan key:generate
