@@ -31,6 +31,6 @@ class CasinoController extends Controller
      */
     public function payouts()
     {   
-        return response()->json($this->casino->getPayOut(), 200);
+        return response()->json($this->casino->getPayout(), 200);
     }    
 }

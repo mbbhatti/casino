@@ -154,7 +154,7 @@ class Casino implements CasinoInterface
      *
      * @return array
      */
-    public function getPayOut(): array
+    public function getPayout(): array
     {
         return [
             'board' => [implode(",",$this->board)],
